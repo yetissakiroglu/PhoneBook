@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{B2A8DC5C-C627-4336-A971-4B6E21EC0D8A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{A52B6194-C92A-4259-BA9A-27E79AC3DBEB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateways", "Gateways", "{A323DB10-76B5-407B-A8DB-FDFC458B4FE7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "User", "User", "{180BE37B-71A9-4F30-B02B-E09CFECC1AC1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Phonebook.Shared", "Shared\Phonebook.Shared\Phonebook.Shared.csproj", "{49296E35-450F-4285-9B46-F5F237C22783}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Phonebook.Services.User", "Services\User\Phonebook.Services.User\Phonebook.Services.User.csproj", "{A767F802-612C-4CA1-8349-144F86B95385}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Phonebook.Gateway", "Gateways\Phonebook.Gateway\Phonebook.Gateway.csproj", "{2BA7AF93-D571-4291-AD6E-655FC65AE008}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Report", "Report", "{893914C6-C2AC-4F83-B896-2457FDCE0781}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Phonebook.Services.Report", "Services\Report\Phonebook.Services.Report\Phonebook.Services.Report.csproj", "{363B67B7-9EC2-4E25-8B2B-853816624E8C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{05543D48-DD3D-4EC1-8099-2683742AE325}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Phonebook.Services.Report.Test", "Phonebook.Services.Report.Test\Phonebook.Services.Report.Test.csproj", "{BB8020C8-FE21-4404-9CCF-D815E91D4618}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Phonebook.Services.User.Test", "Phonebook.Services.User.Test\Phonebook.Services.User.Test.csproj", "{7F9C1BCD-E830-4D6A-9878-16340C31C61A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{51245268-178F-4173-A250-F95C26B8FD97}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose-ovveride.yml = docker-compose-ovveride.yml
+		docker-compose.yml = docker-compose.yml
+		Ports.txt = Ports.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49296E35-450F-4285-9B46-F5F237C22783}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49296E35-450F-4285-9B46-F5F237C22783}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49296E35-450F-4285-9B46-F5F237C22783}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49296E35-450F-4285-9B46-F5F237C22783}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A767F802-612C-4CA1-8349-144F86B95385}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A767F802-612C-4CA1-8349-144F86B95385}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A767F802-612C-4CA1-8349-144F86B95385}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A767F802-612C-4CA1-8349-144F86B95385}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BA7AF93-D571-4291-AD6E-655FC65AE008}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BA7AF93-D571-4291-AD6E-655FC65AE008}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BA7AF93-D571-4291-AD6E-655FC65AE008}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BA7AF93-D571-4291-AD6E-655FC65AE008}.Release|Any CPU.Build.0 = Release|Any CPU
+		{363B67B7-9EC2-4E25-8B2B-853816624E8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{363B67B7-9EC2-4E25-8B2B-853816624E8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{363B67B7-9EC2-4E25-8B2B-853816624E8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{363B67B7-9EC2-4E25-8B2B-853816624E8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB8020C8-FE21-4404-9CCF-D815E91D4618}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB8020C8-FE21-4404-9CCF-D815E91D4618}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB8020C8-FE21-4404-9CCF-D815E91D4618}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB8020C8-FE21-4404-9CCF-D815E91D4618}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F9C1BCD-E830-4D6A-9878-16340C31C61A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F9C1BCD-E830-4D6A-9878-16340C31C61A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F9C1BCD-E830-4D6A-9878-16340C31C61A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F9C1BCD-E830-4D6A-9878-16340C31C61A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{180BE37B-71A9-4F30-B02B-E09CFECC1AC1} = {B2A8DC5C-C627-4336-A971-4B6E21EC0D8A}
+		{49296E35-450F-4285-9B46-F5F237C22783} = {A52B6194-C92A-4259-BA9A-27E79AC3DBEB}
+		{A767F802-612C-4CA1-8349-144F86B95385} = {180BE37B-71A9-4F30-B02B-E09CFECC1AC1}
+		{2BA7AF93-D571-4291-AD6E-655FC65AE008} = {A323DB10-76B5-407B-A8DB-FDFC458B4FE7}
+		{893914C6-C2AC-4F83-B896-2457FDCE0781} = {B2A8DC5C-C627-4336-A971-4B6E21EC0D8A}
+		{363B67B7-9EC2-4E25-8B2B-853816624E8C} = {893914C6-C2AC-4F83-B896-2457FDCE0781}
+		{BB8020C8-FE21-4404-9CCF-D815E91D4618} = {05543D48-DD3D-4EC1-8099-2683742AE325}
+		{7F9C1BCD-E830-4D6A-9878-16340C31C61A} = {05543D48-DD3D-4EC1-8099-2683742AE325}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E270C6C5-A081-4BC5-AF61-36E89C57EF0D}
+	EndGlobalSection
+EndGlobal
